@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>一键报备</title>
+    <link rel="stylesheet" href="../assets/css/common/normalize.css">
+    <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/common/common.css">
+</head>
+
+<body>
+    <div class="container-fluid list-page">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form-customer">
+                    <div class="title">
+                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                        <span>基本信息</span>
+                    </div>
+                    <div class="form-item">
+                        <div class="left">
+                            <span>项 目 名 称</span>
+                            <span style="color:red">*</span>
+                        </div>
+                        <div class="right">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="left">
+                            <span>经 纪 公 司</span>
+                            <span style="color:red">*</span>
+                        </div>
+                        <div class="right">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="left">
+                            <span>经纪人姓名</span>
+                            <span style="color:red">*</span>
+                        </div>
+                        <div class="right">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="left">
+                            <span>经纪人电话</span>
+                            <span style="color:red">*</span>
+                        </div>
+                        <div class="right">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="form-link">
+                        <a href="#">
+                            经纪人信息可自动导入。需注册！
+                        </a>
+                    </div>
+                    <div class="title">
+                        <i class="fa fa-user-secret" aria-hidden="true"></i>
+                        <span>客户信息</span>
+                    </div>
+                    <div class="form-item">
+                        <div class="left">
+                            <span>客户姓名</span>
+                            <span style="color:red">*</span>
+                        </div>
+                        <div class="right">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="left">
+                            <span>客户性别</span>
+                            <span style="color:red">*</span>
+                        </div>
+                        <div class="right">
+                            <div class="form-group-list gropu-radio">
+                                <span class="span-group">
+                                    <input type="radio" name="sex">
+                                    <span>男</span>
+                                </span>
+                                <span class="span-group">
+                                    <input type="radio" name="sex">
+                                    <span> 女</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="left">
+                            <span>客户电话</span>
+                            <span style="color:red">*</span>
+                        </div>
+                        <div class="right">
+                            <div class="form-group-list">
+                                <input type="text" placeholder="前三位">
+                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                <input type="text" placeholder="后五位">
+                            </div>
+                            <div class="hint">
+                                前三后五，中间自动隐藏
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="left">
+                            <span>看房时间</span>
+                            <span style="color:red">*</span>
+                        </div>
+                        <div class="right">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="form-link">
+                        <span class="red">
+                            请提前*小时报备
+                        </span>
+                    </div>
+                    <div class="form-item">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                                <a class="link-line" href="#">报备协议</a>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="from-button">
+                        <div class="div-button">提交</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="div-body-js">
+        <script src="../assets/javascript/jquery-3.5.1.min.js"></script>
+        <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../assets/javascript/main.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+.report-info-page{
+    padding-bottom: 36px;
+}
+.report-info-page .status-title{
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.report-info-page .status-title i{
+    color: #dc0b31;
+    margin-right: 8px;
+}
+.report-info-page .status-title .status-title-right i{
+    color: #337ab7;
+}
+
+.report-info-page .status-title span{
+    color: #337ab7;
+}
+
+.report-info-page .project-other{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.report-info-page .title-span{
+    justify-content: space-between;
+}
+.report-info-page .title-span .span-next{
+    font-size: 14px;
+    background-color: #337ab7;
+    color: white;
+    border-radius: 1px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+}
+
+.report-info-page .title-span .span-next span{
+    color: white;
+}
+.report-info-page .title-span .span-next i{
+    margin-right: 3px;
+    color: white;
+}
+
+.report-info-page .list-time-out{
+    position: relative;
+}
+.report-info-page .list-time-out img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    left: -12px;
+    background-color: white;
+}
+
+.report-info-page  .list-time{
+    border-left:solid 1px #337ab7;
+    padding: 24px;
+    padding-bottom: 6px;
+}
+.report-info-page  .list-time-content{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 12px;
+    background-color: #f8f8f8;
+    color: #777;
+    border-radius: 3px;
+}

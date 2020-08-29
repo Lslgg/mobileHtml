@@ -1,0 +1,40 @@
+.user-page{
+    background: #f8f8f8;
+    height: 100vh;
+}
+.user-page .user-name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px;
+    background-color: white;
+}
+
+.user-page .user-name img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 18px;
+}
+.user-nav-list{
+    margin-top: 8px;
+    background-color: white;
+    margin: 12px -15px;
+}
+.user-nav-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border: solid 1px #f8f8f8;
+    font-size: 18px;
+}
+
+.aboutUs-page .title{
+    padding-top: 14px;
+    padding-bottom: 0;
+}
+
+.aboutUs-page .title a{
+    color: #0488f9;
+}

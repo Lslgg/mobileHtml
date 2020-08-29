@@ -1,0 +1,269 @@
+.index-page{
+    padding-bottom:88px;
+}
+
+.header-search{
+    padding: 0;
+}
+
+.header-search img{
+    width: 100%;
+    height: auto;
+}
+
+.home-serch {
+    position: absolute;
+    width: 100%;
+    top: 0.03rem;
+    left: 0rem;
+    z-index: 100;
+}
+
+.home-serch .search-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-radius: 1px;
+    min-height: 48px;
+    height: 48px;
+    margin: 12px;
+    opacity: 0.95;
+}
+
+.home-serch .search-item i {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.home-serch input{
+    flex: 1;
+    border: 0;
+    height: 38px;
+}
+
+.home-serch  input:focus {
+    outline: none;
+    border-color: 0;
+    box-shadow: 0 ;
+}
+
+.home-serch .search-item span {
+    flex: 0 0 40px;
+    margin-right: 10px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-serch .search-item  span i {
+    color: rebeccapurple;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+.nav-list .list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.nav-list .list-item .bg {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: white;
+}
+.nav-list .list-item .bg img {
+    width: 35px;
+    height: 35px;
+}
+.nav-list .list-item .title {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.list{
+    margin-top: 12px;
+}
+
+.list .right >div{
+    padding: 2px;
+}
+
+.list .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.list .right .row-title{
+    padding-top: 0;
+}
+
+.list .item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: solid 1px #f8f8f8;
+}
+
+.list .list-item .item:last-child{
+    margin-bottom: 0;
+}
+
+.list .more{
+    text-align: center;
+    line-height: 44px;
+    color:red;
+    font-size: 18px;
+    background:#f8f8f8;
+}
+
+
+.list .item .row-title .bold{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.list .item img{
+    width: 160px;
+    height: 100px;
+    margin-right: 12px;
+}
+
+.list .item .red{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+.list .item .price{
+    margin-right: 8px;
+}
+
+.list .item .row-tag{
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.list .item .row-tag span{
+    display: inline-block;
+    background: #f8f8f8;
+    color: gray;
+    padding: 3px 3px;
+    border-radius: 3px;
+    margin-right: 8px;
+    font-size: 11px;
+}
+
+.list .item  .row-tag .bg-red{
+    background: #ffc0cb54;
+    color: red;
+}
+
+.list-article .item img{
+    width: 120px;
+    height: 90px;
+}
+
+.list-article .item .left{
+    flex: 0 0 120px;
+    margin-right: 12px;
+}
+
+.list-article .item .right{
+    flex: 1;
+}
+
+.list-article .item .row-sub-title{
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.list-article .row-date{
+    color: gray;
+}
+
+.list-row .item-row{
+    overflow-x: scroll;
+}
+
+.list-row .item-row img{
+    width: 200px;
+    height: 120px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.list-row .item-row .item-row-content{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 12px;
+}
+
+.list-row .item-row .content-item{
+    padding-bottom: 12px;
+    width: 200px;
+    height: 180px;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: solid 1px #f8f8f8;
+    border-radius: 3px;
+}
+
+.list-row .item-row .content-item span{
+    padding:3px 6px;
+}
+
+.list-row .item-row-content .outContent-item{
+    position: relative;
+}
+
+.list-row .item-row-content 
+.outContent-item .other{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background: #7777774d;
+    padding: 1px 6px;
+    padding-left: 0;
+}
+
+
+.list-row .item-row-content 
+.outContent-item .other .green{
+    background: #a94442;
+    border-radius: 3px;
+    padding: 1px 3px;
+}
+
+.index-page  .swiper-container {
+    width: 100%;
+    height: 120px;
+    background: #f8f8f8;
+}
+
+.index-page .swiper-container img{
+    min-height: 120px;
+    max-height: 100%;
+    margin: auto;
+}
