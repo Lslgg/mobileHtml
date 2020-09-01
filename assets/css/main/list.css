@@ -1,0 +1,160 @@
+.list-page{
+    padding-bottom:88px;
+}
+
+.header-search img{
+    width: 100%;
+    height: auto;
+}
+
+.list-serch .search-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    border-radius: 1px;
+    min-height: 48px;
+    height: 48px;
+    margin: 12px 0;
+    opacity: 0.95;
+}
+
+.list-serch .search-item i {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.list-serch input{
+    flex: 1;
+    border: 0;
+    height: 38px;
+    background: #eee;
+}
+
+.list-serch  input:focus {
+    outline: none;
+    border-color: 0;
+    box-shadow: 0 ;
+}
+
+.list-serch .search-item span {
+    flex: 0 0 40px;
+    margin-right: 10px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-serch .search-item  span i {
+    color: rebeccapurple;
+}
+
+.house-search .search-where{
+    display: flex;
+    justify-content:space-around;
+    line-height: 64px;
+}
+
+.house-search .search-where i{
+    color: #ccc;
+}
+
+.house-search .search-select-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.house-search .search-select-item >span{
+    background: #eee;
+    padding: 6px;
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.house-search .search-select-item >span i{
+    color: red;
+}
+
+
+.list{
+    margin-top: 12px;
+}
+
+.list .right >div{
+    padding: 2px;
+}
+
+.list .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.list .right .row-title{
+    padding-top: 0;
+}
+
+.list .item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: solid 1px #f8f8f8;
+}
+
+.list .list-item .item:last-child{
+    margin-bottom: 0;
+}
+
+.list .more{
+    text-align: center;
+    line-height: 44px;
+    color:red;
+    font-size: 18px;
+    background:#f8f8f8;
+}
+
+.list .item .row-title .bold{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.list .item img{
+    width: 160px;
+    height: 100px;
+    margin-right: 12px;
+}
+
+.list .item .red{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+.list .item .price{
+    margin-right: 8px;
+}
+
+.list .item .row-tag{
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.list .item .row-tag span{
+    display: inline-block;
+    background: #f8f8f8;
+    color: gray;
+    padding: 3px 3px;
+    border-radius: 3px;
+    margin-right: 8px;
+    font-size: 11px;
+}
+
+.list .item  .row-tag .bg-red{
+    background: #ffc0cb54;
+    color: red;
+}
+    
+

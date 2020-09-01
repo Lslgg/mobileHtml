@@ -1,0 +1,38 @@
+.dynamic-info-page{
+    padding-bottom: 32px;
+}
+.dynamic-info-page-content{
+    padding-top:12px;
+    padding-bottom: 12px;
+}
+.dynamic-info-page-content h4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.dynamic-info-page-content h4 .span-bg{
+    background-color: #e23232;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.dynamic-info-page-content .content{
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.dynamic-info-page .div-img{
+    background: #f8f8f8;
+}
+
+.dynamic-info-page .div-img img{
+    width: 240px;
+    margin: auto;
+    padding: 12px;
+}

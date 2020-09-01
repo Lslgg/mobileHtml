@@ -1,0 +1,119 @@
+.roomType-page{
+    padding-bottom:38px;
+
+}
+.roomType-page .top-img{
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+    margin: 0 -15px;
+}
+.roomType-page .top-img img{
+    height: 250px;
+}
+.roomType-page .row-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ff6666;
+    font-size:16px;
+    padding: 12px 0;
+}
+
+.roomType-page .row-price .left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.roomType-page .row-price .left .span-price{
+    display: flex;
+    margin-right: 12px;
+}
+
+.roomType-page .row-price .left .span-bg{
+    border: solid 1px #ff6666;
+    font-size: 12px;
+    padding: 0px 8px;
+    border-radius: 8px;
+}
+
+.roomType-page .notice{
+    color: #83868f;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.roomType-page .stag {
+    padding: 12px 0;
+    font-size: 10px;
+    color: #565c67;
+    overflow: hidden;
+}
+
+.roomType-page .stag span {
+    line-height: 12px;
+    padding: 2px 5px 1px;
+    border: none;
+    background: #f2f4f8;
+    overflow: hidden;
+    margin-bottom: 1px;
+}
+
+.roomType-page .gray-b{
+    font-size: 10px;
+    color: #b3b6be;
+    padding-bottom: 12px;
+}
+
+.roomType-page .base-info .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.roomType-page .base-info .item div{
+    flex: 1;
+}
+
+.roomType-page .byItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.roomType-page .other-room-type .title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.roomType-page .other-room-type .item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 12px 0;
+}
+
+.roomType-page .other-room-type .item .left{
+    flex: 0 0 180px;
+}
+
+.roomType-page .other-room-type .item .right{
+    flex: 1;
+    margin-left: 16px;
+}
+
+.roomType-page .other-room-type .item img{
+    height: 100px;
+    margin-right: 12px;
+}
+
+.roomType-page .other-room-type .gray{
+    color: #8e8d8d;
+    margin-right: 12px;
+}
+
+.roomType-page .other-room-type .right .row-item{
+    padding: 3px 0;
+}

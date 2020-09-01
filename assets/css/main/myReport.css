@@ -1,0 +1,69 @@
+.myReport-page .active{
+    background: chocolate;
+    color: red;
+}
+
+.myReport-page .list .list-item{
+    padding:12px;
+    background: #f8f8f8;
+    border-radius: 6px;
+    margin-top: 12px;
+    display: block;
+}
+
+.myReport-page .list .list-item .item-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.myReport-page .span-item-name{
+    font-size: 18px;
+}
+
+.myReport-page .item-other .myReport-list-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 24px;
+    font-size: 16px;
+    border-bottom: solid 1px #f8f8f8;
+}
+
+.myReport-page .item-other .myReport-list-item span{
+    margin-right: 5px;
+}
+
+.myReport-page .item-other{
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    color: #777;
+}
+
+.myReport-page .item-other .right{
+    font-size: 34px;
+}
+
+
+.myReport-page .more{
+    text-align: center;
+    line-height: 44px;
+    color:red;
+    font-size: 18px;
+    background:#f8f8f8;
+    margin-top: 24px;
+}
+
+.myReport-page .modal-dialog{
+    margin-top: 50%;
+}
+
+.myReport-page  .list-hide{
+    display: none;
+}
+
+.myReport-page .list-item-1{
+    display: block;
+}
