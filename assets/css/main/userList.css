@@ -1,0 +1,45 @@
+.user-list-page{
+    padding-bottom: 2rem;
+}
+
+.user-list-page .row-list-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1.2rem 0;
+    border-bottom: solid 1px #f8f8f8;
+    padding: 0.8rem 0;
+    font-size: 1.5rem;
+}
+
+.user-list-page .row-list-item img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.user-list-page .row-list-item .right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.user-list-page .gray{
+    padding-right: 0.4rem;
+}
+
+.item-list-page  .row-list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    padding: .6rem;
+    margin: 1.2rem 0;
+    border-bottom: solid 1px #f8f8f8;
+}
+
+.item-list-page  .row-list-item .left i{
+    color: #337ab7;
+}

@@ -12,10 +12,10 @@
 }
 
 .home-serch {
-    position: absolute;
+    /* position: absolute;
     width: 100%;
     top: 0.03rem;
-    left: 0rem;
+    left: 0rem; */
     z-index: 100;
 }
 
@@ -258,12 +258,12 @@
 
 .index-page  .swiper-container {
     width: 100%;
-    height: 120px;
+    height: 160px;
     background: #f8f8f8;
 }
 
 .index-page .swiper-container img{
-    min-height: 120px;
+    min-height: 160px;
     max-height: 100%;
     margin: auto;
 }
